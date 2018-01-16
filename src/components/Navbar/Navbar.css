@@ -1,0 +1,12 @@
+.navbar-brand {
+  list-style: none; }
+  .navbar-brand a {
+    text-decoration: none;
+    color: #fff; }
+    .navbar-brand a:focus, .navbar-brand a:hover {
+      text-decoration: none;
+      color: #fff; }
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px !important; } }
