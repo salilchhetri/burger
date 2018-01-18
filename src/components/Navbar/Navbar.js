@@ -66,10 +66,10 @@ const navbarInstance = (props) => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Route path="/" exact component={Home} />
+      {/* <Route path="/" exact component={Home} />
       <Route path="/about" component={About} />
       <Route path="/profile" component={Profile} />
-      <Route path="/auth" component={Auth} />
+      <Route path="/auth" component={Auth} /> */}
     </div>
   )
 }
