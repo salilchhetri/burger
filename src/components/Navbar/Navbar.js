@@ -26,7 +26,7 @@ const navbarInstance = (props) => {
             <IndexLinkContainer to="/" className="navbar-brand">
               <NavItem
                 eventKey={1}>
-                PurpleHaze Graphics
+                KickAss Burgers
               </NavItem>
             </IndexLinkContainer>
           </Navbar.Brand>
@@ -66,10 +66,10 @@ const navbarInstance = (props) => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Route path="/" exact component={Home} />
+      {/* <Route path="/" exact component={Home} />
       <Route path="/about" component={About} />
       <Route path="/profile" component={Profile} />
-      <Route path="/auth" component={Auth} />
+      <Route path="/auth" component={Auth} /> */}
     </div>
   )
 }
